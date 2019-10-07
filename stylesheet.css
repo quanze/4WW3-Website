@@ -1,0 +1,22 @@
+body {
+}
+header{
+	/* Make the font bigger and a different color*/
+	font-weight: 700;
+	font-size: 200%;
+	background-color: #5AB9EA;
+}
+footer{
+	/*make footer font smaller so it doesnt pull attention away from the rest of the page*/
+font-size: 85%;
+	
+}
+ #mainContainer{
+ 	background-color: #84CEEB;
+ }
+
+ #footerSperator{
+ 	border-top: 2px solid;
+ 	border-top-color: #5680E9;
+ }
+

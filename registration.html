@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- basic.html -->
+    <title>basic.html</title>
+    <meta charset="UTF-8" />
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        RATES!
+        <!-- Creation of navigation bar on top. -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--  Make the navbar collapsable on smaller screens-->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!--  each tab on the navbar-->
+                    <a class="nav-item nav-link active" href="#">Search</a>
+                    <a class="nav-item nav-link" href="#">Submit</a>
+                    <a class="nav-item nav-link" href="#">Sign Up</a>
+                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <h1>
+            Sign up!
+        </h1>
+        </div>
+        <div class="container">
+            <!-- Create form with text inputs, radio buttons, a checkbox and submit button-->
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">Enter your email here!</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword" placeholder="Enter password">
+                    <small>Enter your password here!</small>
+                </div>
+                <!-- Radio buttons -->
+                <div class="form-check form-check-inline">
+                    Gender:
+                    <input class="form-check-input" type="radio">
+                    <label>Male</label>
+                    <input class="form-check-input" type="radio">
+                    <label>Female</label>
+                    <input class="form-check-input" type="radio">
+                    <label>Prefer not to say</label>
+                </div>
+                <!-- Check box-->
+                <div class="form-group">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Send me email updates
+                    </label>
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+        <!--  Creating the footer -->
+        <footer class="page-footer font-small ">
+            <div class="row">
+                At RATES!, we believe that real life experinces DON'T matter unless it has been shared on some type of social media. This is why RATES! exsists! We let users from all over the world post and rate every little thing they do because everyone must know about the last dessert you ate or waterfall you visted!
+            </div>
+            <div class="row footer-copyright blue">© 2018 Copyright:
+                <a href="RATES.com">RATES.com</a>
+            </div>
+        </footer>
+    </div>
+</body>
